@@ -1,0 +1,52 @@
+@media screen and (max-width: 750px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+    body{
+        background-image: url(images/backgroundimage.jpg);
+        background-repeat: repeat;
+        background-size: 100% auto;
+    } 
+    :root{
+        --pink: #ffb6c1;
+        --background: #ffe4e1;
+        --fontcolor: #cc3366;
+        --goldcolor: #b78727;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        padding: 10px;
+        margin: 40px auto;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .container{
+        height: auto;
+        width:  275px;
+    }
+    .image{
+        width: 275px;
+        height: 275px;
+    }
+    .card{
+        border: 3px solid var(--goldcolor);
+        width: fit-content;
+        background-color: var(--background);
+        margin: 20px auto;
+    }
+    h3, button{
+        display: inline;
+    }
+    button{
+        width: 80px;
+        margin: 5px;
+        padding: 2px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

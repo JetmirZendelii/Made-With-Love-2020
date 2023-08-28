@@ -1,0 +1,21 @@
+@media screen and (min-width:1200px){
+body{
+    background-image: url(images/backgroundimage.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #ffe4e1;
+}
+input{
+    margin: 5px;
+}
+}
