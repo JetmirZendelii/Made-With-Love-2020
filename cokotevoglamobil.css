@@ -49,4 +49,16 @@
         font-size: 16px;
         font-weight: bold;
     }
+    h1{
+        width: 90%;
+        display:grid;
+        margin: 0 auto;
+        height: 60px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+        background-color: var(--background);
+        color: var(--fontcolor);
+        justify-content: center;
+    }
 }
